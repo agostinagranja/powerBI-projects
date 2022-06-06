@@ -1,9 +1,9 @@
 # Power BI projects
-#### This repository helps me gather all of the Power BI dashboards I make. You will find a _description_ of each project, a _screenshoot_ of the dashboard, and the _PBIX file_.
+#### This repository helps me gather all of the Power BI dashboards I make. You will find a _description_ of each project, the _implementation process_, a _preview_ of the dashboard, and the _PBIX file_.
 
 ## Content
 1. Personal finances
-2. Sales
+2. Sales I
 3. Sales II
 
 ### _Personal finances_
@@ -42,10 +42,10 @@ At first, I developed it just for me and then personalized it for friends and fa
    - Concept
 
 #### Results
-* [PBIX file](docs/CONTRIBUTING.md)
-* ![Preview](docs/CONTRIBUTING.md)
+* [PBIX file](pbix/personal-finances.pbix)
+* ![](image/personal-finances.png)
 
-### _Sales_
+### _Sales I_
 #### Description
 This is the **capstone project** developed as a team for the subject "computerized management" in the last year of my accounting degree. It is in Spanish, but you should know that I am working on its translation to English. 
 
@@ -53,16 +53,14 @@ The **project objective** is to build an interactive dashboard to:
 1.	Obtain valuable insights into the magnitude, structure, and trends of sales/ profit
 2.	Making sales forecasting
 
-You can peek at the dashboard in the **video** I attach in the next section. I also include the **PBIX file** in this repo.
-
 #### Implementation process
 1. Prepare and clean the database
 2. Modelling: 
-   - Relationships[^1]
+   - Relationships
    - Identification of facts: transactions (sales and cost)
    - Identification of dimensions: date, branch, customer, currency, places, products, cathegory, paying method
 
-[^1]: Image: relationships modelling
+![](image/sales-I-model.png)
 
 3. Measures: 
    - Sum of sales, expresed in argentine pesos (taking into account inflation) and in dollars
@@ -87,9 +85,11 @@ You can peek at the dashboard in the **video** I attach in the next section. I a
    - Cathegory
    - Top products/customers
 
-#### Demonstration
+#### Results
+* [PBIX file](pbix/sales-I.pbix)
 
-**_video_**
+![](image/sales-I.png)
+
 
 ### _Sales II_
 #### Description
@@ -98,8 +98,6 @@ This is a project developed for **learning purposes**.
 The **project objective** is to build an interactive dashboard to:
 1.	Analyze sales and profit, in different dashbaords
 2.	Visualize KPIs
-
-You can peek at the dashboard in the **video** I attach in the next section. I also include the **PBIX file** in this repo.
 
 #### Implementation process
 1. Load data
@@ -122,7 +120,9 @@ You can peek at the dashboard in the **video** I attach in the next section. I a
    - Month
    - Segment
 
-#### Demonstration
+#### Results
+* [PBIX file 1](pbix/sales-II-part1.pbix)
+* [PBIX file 2](pbix/sales-II-part2.pbix)
 
-**_video_**
+![](image/sales-II.png)
 
