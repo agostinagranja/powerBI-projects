@@ -1,5 +1,5 @@
 # Power BI projects
-#### This repository helps me gather all of the Power BI dashboards I made. You will find a _description_ of each project, a _video_ demonstration of the dashboard, and the _PBIX file_.
+#### This repository helps me gather all of the Power BI dashboards I make. You will find a _description_ of each project, a _screenshoot_ of the dashboard, and the _PBIX file_.
 
 ## Content
 1. Personal finances
@@ -11,8 +11,6 @@
 This project is born after noticing the difficulty in making forecasts in my personal finances sphere. After some research, I realized that it was due to the lack of tracking and **analysis of income and expenses** (or at least it would be a great place to start).
 
 The **project objective** is to build an interactive dashboard analyzing the magnitude, structure, and trends of income and expenses up to date.
-
-You can peek at the dashboard in the **video** I attach in the next section. I also include the **PBIX file** in this repo.
 
 At first, I developed it just for me and then personalized it for friends and family. Feel free to adapt it to your necessities and do not hesitate to propose improvements.
 
@@ -43,16 +41,16 @@ At first, I developed it just for me and then personalized it for friends and fa
    - Cathegory
    - Concept
 
-#### Demonstration
-
-**_video_**
+#### Results
+* [PBIX file](docs/CONTRIBUTING.md)
+* ![Preview](docs/CONTRIBUTING.md)
 
 ### _Sales_
 #### Description
-This is a project developed as a team for subject “computerized management” of the last year of the accounting degree career. It is in Spanish, but you should know that I am working on its traslation to English. 
+This is the **capstone project** developed as a team for the subject "computerized management" in the last year of my accounting degree. It is in Spanish, but you should know that I am working on its translation to English. 
 
-The **project objective** is to build an interactive dashboard to
-1.	Analyze and obtain valuable insights into the magnitude, structure, and trends of sales/ profit
+The **project objective** is to build an interactive dashboard to:
+1.	Obtain valuable insights into the magnitude, structure, and trends of sales/ profit
 2.	Making sales forecasting
 
 You can peek at the dashboard in the **video** I attach in the next section. I also include the **PBIX file** in this repo.
@@ -64,7 +62,7 @@ You can peek at the dashboard in the **video** I attach in the next section. I a
    - Identification of facts: transactions (sales and cost)
    - Identification of dimensions: date, branch, customer, currency, places, products, cathegory, paying method
 
-[1^]: Image: relationships modelling
+[^1]: Image: relationships modelling
 
 3. Measures: 
    - Sum of sales, expresed in argentine pesos (taking into account inflation) and in dollars
@@ -93,4 +91,38 @@ You can peek at the dashboard in the **video** I attach in the next section. I a
 
 **_video_**
 
+### _Sales II_
+#### Description
+This is a project developed for **learning purposes**. 
+
+The **project objective** is to build an interactive dashboard to:
+1.	Analyze sales and profit, in different dashbaords
+2.	Visualize KPIs
+
+You can peek at the dashboard in the **video** I attach in the next section. I also include the **PBIX file** in this repo.
+
+#### Implementation process
+1. Load data
+2. Modelling: 
+   - Identification of facts: sales and cost
+   - Identification of dimensions: date, segment, country, product, discount band
+3. Measures: 
+   - Sum of sales
+   - Profit
+   - Previous sales
+   - Previous profit
+   - Profit margin
+4. Visualizations
+   - Stacked column chart: show sales, cost and profit per month
+   - KPI: compare the profits/sales of the current month with the last month
+   - Line chart: displays units sold and forecasted
+   - Map: show profit/sales per country
+5. Filters
+   - Year
+   - Month
+   - Segment
+
+#### Demonstration
+
+**_video_**
 
