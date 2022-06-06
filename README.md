@@ -3,7 +3,7 @@
 
 ## Content
 1. Personal finances
-2. Sales
+2. Sales I
 3. Sales II
 
 ### _Personal finances_
@@ -45,7 +45,7 @@ At first, I developed it just for me and then personalized it for friends and fa
 * [PBIX file](docs/CONTRIBUTING.md)
 * ![Preview](docs/CONTRIBUTING.md)
 
-### _Sales_
+### _Sales I_
 #### Description
 This is the **capstone project** developed as a team for the subject "computerized management" in the last year of my accounting degree. It is in Spanish, but you should know that I am working on its translation to English. 
 
@@ -87,9 +87,11 @@ You can peek at the dashboard in the **video** I attach in the next section. I a
    - Cathegory
    - Top products/customers
 
-#### Demonstration
+#### Results
+* [PBIX file 1](sales-I-part1.pbix)
+* [PBIX file 2](sales-I-part2.pbix)
+* ![Preview](sales-I.png)
 
-**_video_**
 
 ### _Sales II_
 #### Description
