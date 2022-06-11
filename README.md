@@ -29,9 +29,9 @@ At first, I developed it just for me and then personalized it for friends and fa
 * [PBIX file](pbix/personal-finances.pbix)
 * Preview
 
-![](image/personal-finances-summary.png | width=100)
-![](image/personal-finances-income.png | width=100)
-![](image/personal-finances-expenses.png | width=100)
+<img src="image/personal-finances-summary.png" width="500">
+<img src="image/personal-finances-income.png" width="500">
+<img src="image/personal-finances-expenses.png" width="500">
 
 ### _Sales I_
 #### Description
@@ -48,7 +48,7 @@ The **project objective** is to build an interactive dashboard to:
    - Facts: transactions (sales and cost)
    - Dimensions: date, branch, customer, currency, places, products, cathegory, paying method
 
-![](image/sales-I-model.png)
+<img src="image/sales-I-model.png" width="700">
 
 3. Measures: 
    - Sum of sales, expresed in argentine pesos (taking into account inflation) and in dollars
@@ -62,7 +62,7 @@ The **project objective** is to build an interactive dashboard to:
 * [PBIX file](pbix/sales-I.pbix)
 * Preview
 
-![](image/sales-I.png | width=100)
+<img src="image/sales-I.png" width="500">
 
 
 ### _Sales II_
@@ -91,5 +91,6 @@ The **project objective** is to build an interactive dashboard to:
 * [PBIX file 2](pbix/sales-II-part2.pbix)
 * Preview
 
-![](image/sales-II.png | width=100)
+<img src="image/sales-II.png" width="500">
+
 
