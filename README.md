@@ -17,11 +17,7 @@ At first, I developed it just for me and then personalized it for friends and fa
 #### Implementation process
 1. Incremental ETL. Frequency: once a month
    - Extract: export income/expenses data registered on a smartphone App into a csv file.
-<<<<<<< HEAD
    - Transform: I use SQL workspace of BigQuery (Google Cloud) to merge all the data into a single income/expenses file, then I explore the data so I can check for errors, misspellings, inconsistencies and more. After that, I want to be sure that the data is clean (remove duplicates, replace misspelled words and format data). Finally, I make a brief analysis to know the overall pattern of income/expenses by cathegory and concepts. Once data is ready, I export a csv file to further visualization. I attached the SQL queries [here!](sql/personal-finances.md)
-=======
-   - Transform: I use SQL workspace of BigQuery (Google Cloud) to merge all the data into a single income/expenses file, then I explore the data so I can check for errors, misspellings, inconsistencies and more. After that, I want to be sure that the data is clean (remove duplicates, replace misspelled words and format data). Finally, I make a brief analysis to know the overall pattern of income/expenses by cathegory and concepts. Once data is ready, I export a csv file to further visualization. I attached the SQL queries [here!](SQL/personal-finances.rmd)
->>>>>>> 9269eb9907fe8623eea67af3015b0cbfabc221ef
    - Load: import csv file to Power BI and refresh every time new data is added. 
 2. Modelling: 
    - Relationship: dates 
