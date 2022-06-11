@@ -1,5 +1,5 @@
 # Power BI projects
-#### This repository helps me gather all of the Power BI dashboards I make. You will find a _description_ of each project, the _implementation process_, a _preview_ of the dashboard, and the _PBIX file_.
+#### This repository helps me gather all the Power BI dashboards I enjoyed doing the most. You will find a _description_ of each project, the _implementation process_, a _preview_ of the dashboard, and the _PBIX file_.
 
 ## Content
 1. Personal finances
@@ -15,35 +15,22 @@ The **project objective** is to build an interactive dashboard analyzing the mag
 At first, I developed it just for me and then personalized it for friends and family. Feel free to adapt it to your necessities and do not hesitate to propose improvements.
 
 #### Implementation process
-1. Incremental ETL. Frequency: once a month 
+1. Incremental ETL. Frequency: once a month
+   - Extract: export income/expenses data registered on a smartphone App into a csv file.
+   - Transform: I use SQL workspace of BigQuery (Google Cloud) to merge all the data into a single income/expenses file, then I explore the data so I can check for errors, misspellings, inconsistencies and more. After that, I want to be sure that the data is clean (remove duplicates, replace misspelled words and format data). Finally, I make a brief analysis to know the overall pattern of income/expenses by cathegory and concepts. Once data is ready, I export a csv file to further visualization.
+   - Load: import csv file from Power BI and refresh every time new data is added. 
 2. Modelling: 
-   - Relationships
-   - Identification of facts: income and expenses, both real and targeted
-   - Identification of dimensions: date, cathegory, and concept
-3. Measures: 
-   - Sum of income and expenses
-   - Sum month to date (MTD)
-   - Sum year to date (YTD)
-   - Change month over month (MoM%) 
-   - Count of dimensions
-4. Visualizations
-   - Matrix: show income/expenses and saving per month in numbers. Also includes KPIs indicating if target saving was reached or not.
-   - Stacked column chart: show current liquidity.
-   - Gauge: compare target income/expenses to the actual ones.
-   - Line and stacked column charts: show the income/expenses per month and the corresponding change MoM%.
-   - Donut chart: show income/expenses amount by cathegory.
-   - Treemap: show income/expenses amount by concept.
-   - Cards: show summarization of income/expenses.
-   - Multi-row card: show various stats like dimension counting.
-5. Filters
-   - Year
-   - Month
-   - Cathegory
-   - Concept
+   - Relationship: dates 
+   - Facts: income and expenses, both real and targeted
+   - Dimensions: date, cathegory, and concept
+3. Analysis and Visualizations: please dive into the dashboard I attached in next section.
 
 #### Results
 * [PBIX file](pbix/personal-finances.pbix)
-* ![](image/personal-finances.png)
+![](image/personal-finances-intro.png)
+![](image/personal-finances-summary.png)
+![](image/personal-finances-income.png)
+![](image/personal-finances-expenses.png)
 
 ### _Sales I_
 #### Description
@@ -57,8 +44,8 @@ The **project objective** is to build an interactive dashboard to:
 1. Prepare and clean the database
 2. Modelling: 
    - Relationships
-   - Identification of facts: transactions (sales and cost)
-   - Identification of dimensions: date, branch, customer, currency, places, products, cathegory, paying method
+   - Facts: transactions (sales and cost)
+   - Dimensions: date, branch, customer, currency, places, products, cathegory, paying method
 
 ![](image/sales-I-model.png)
 
@@ -68,22 +55,7 @@ The **project objective** is to build an interactive dashboard to:
    - TopN of products and customers
    - Profit margin
    - Count of dimensions
-4. Visualizations
-   - Column charts: show sales and margin agreggated by month.
-   - Decomposition tree: shows the composition of the amount of sales according to category and products.
-   - Line chart: shows units sold per month and forecasts sales units.
-   - Treemap: show sales by cathegories.
-   - Table: show top 5 products and customers measured according to units sold and profit margin, respectively.
-   - Donut chart: show sales amount by payment method.
-   - Map: show influx of customers, sized by sales amount.
-   - Cards: show sum of main measures like sales and change over last month.
-   - Multi-row card: show various stats like dimension counting.
-5. Filters
-   - Year
-   - Branch
-   - Currency
-   - Cathegory
-   - Top products/customers
+4. Analysis and Visualizations: please dive into the dashboard I attached in next section.
 
 #### Results
 * [PBIX file](pbix/sales-I.pbix)
@@ -93,7 +65,7 @@ The **project objective** is to build an interactive dashboard to:
 
 ### _Sales II_
 #### Description
-This is a project developed for **learning purposes**. 
+This is a project developed just for **learning purposes**. 
 
 The **project objective** is to build an interactive dashboard to:
 1.	Analyze sales and profit, in different dashbaords
@@ -110,15 +82,7 @@ The **project objective** is to build an interactive dashboard to:
    - Previous sales
    - Previous profit
    - Profit margin
-4. Visualizations
-   - Stacked column chart: show sales, cost and profit per month
-   - KPI: compare the profits/sales of the current month with the last month
-   - Line chart: displays units sold and forecasted
-   - Map: show profit/sales per country
-5. Filters
-   - Year
-   - Month
-   - Segment
+4. Analysis and Visualizations: please dive into the dashboard I attached in next section.
 
 #### Results
 * [PBIX file 1](pbix/sales-II-part1.pbix)
