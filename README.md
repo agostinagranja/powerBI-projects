@@ -18,7 +18,7 @@ At first, I developed it just for me and then personalized it for friends and fa
 1. Incremental ETL. Frequency: once a month
    - Extract: export income/expenses data registered on a smartphone App into a csv file.
    - Transform: I use SQL workspace of BigQuery (Google Cloud) to merge all the data into a single income/expenses file, then I explore the data so I can check for errors, misspellings, inconsistencies and more. After that, I want to be sure that the data is clean (remove duplicates, replace misspelled words and format data). Finally, I make a brief analysis to know the overall pattern of income/expenses by cathegory and concepts. Once data is ready, I export a csv file to further visualization.
-   - Load: import csv file from Power BI and refresh every time new data is added. 
+   - Load: import csv file to Power BI and refresh every time new data is added. 
 2. Modelling: 
    - Relationship: dates 
    - Facts: income and expenses, both real and targeted
@@ -27,10 +27,11 @@ At first, I developed it just for me and then personalized it for friends and fa
 
 #### Results
 * [PBIX file](pbix/personal-finances.pbix)
-![](image/personal-finances-intro.png)
-![](image/personal-finances-summary.png)
-![](image/personal-finances-income.png)
-![](image/personal-finances-expenses.png)
+* Preview
+
+![](image/personal-finances-summary.png | width=100)
+![](image/personal-finances-income.png | width=100)
+![](image/personal-finances-expenses.png | width=100)
 
 ### _Sales I_
 #### Description
@@ -59,8 +60,9 @@ The **project objective** is to build an interactive dashboard to:
 
 #### Results
 * [PBIX file](pbix/sales-I.pbix)
+* Preview
 
-![](image/sales-I.png)
+![](image/sales-I.png | width=100)
 
 
 ### _Sales II_
@@ -87,6 +89,7 @@ The **project objective** is to build an interactive dashboard to:
 #### Results
 * [PBIX file 1](pbix/sales-II-part1.pbix)
 * [PBIX file 2](pbix/sales-II-part2.pbix)
+* Preview
 
-![](image/sales-II.png)
+![](image/sales-II.png | width=100)
 
