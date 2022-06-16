@@ -1,7 +1,7 @@
 # Power BI projects
 #### This repository helps me gather all the Power BI dashboards I enjoyed doing the most. You will find a _description_ of each project, the _implementation process_, a _preview_ of the dashboard, and the _PBIX file_.
 
-## Content
+## Projects
 1. Personal finances
 2. Sales I
 3. Sales II
